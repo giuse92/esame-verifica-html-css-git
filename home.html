@@ -129,17 +129,33 @@
         <div class="blocco-form">
             <span class="titolo-box">Contact form</span>
             <!-- Aggiunti dei required rispetto al form originale -->
-            <form action="/action.php">
-                <label for="fname">First name</label>
-                <input type="text" name="fname" id="fname" required>
-                <label for="lname">Last name</label>
-                <input type="text" name="lname" id="lname">
-                <label for="email">Email*</label>
-                <input type="email" name="email" id="email" required>
-                <label for="subject">Subject*</label>
-                <input type="text" name="subject" id="subject" maxlength="30" required>
-                <label for="message">Message</label>
-                <textarea name="message" id="message">Write your notes or question here</textarea>
+            <form class="centrata" action="/action.php">
+                <!-- Campi Nome e cognome in fila -->
+                <div class="fila">
+                    <div class="campo-form">
+                        <label for="fname">First name</label>
+                        <input type="text" name="fname" id="fname" required>
+                    </div>
+                    <div class="campo-form">
+                        <label for="lname">Last name</label>
+                        <input type="text" name="lname" id="lname">
+                    </div>
+                </div>
+                <div class="campo-form">
+                    <label for="email">Email*</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="campo-form">
+                    <label for="subject">Subject*</label>
+                    <input type="text" name="subject" id="subject" maxlength="30" required>
+                </div>
+                <div class="campo-form">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message">Write your notes or question here</textarea>
+                </div>
+                <div class="campo-form">
+                    <input class="btn-link" type="submit" value="Send Message">
+                </div>
             </form>
         </div>
     </section>
