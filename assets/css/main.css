@@ -137,7 +137,11 @@ section#introduction .box-testo > h1 {
 }
 
 #contact .blocco-form form {
+    margin-top: 10px;
+    padding: 0 25px;
     text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 2em;
 }
 
 #contact .blocco-form form span {
@@ -153,9 +157,9 @@ section#introduction .box-testo > h1 {
 }
 
 #contact .blocco-form form input[type=submit] {
-    margin-top: 10px;
+    border: none;
+    margin: 10px 0;
 }
-
 
 footer {
     text-align: center;
