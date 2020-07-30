@@ -1,0 +1,27 @@
+@media only screen and (max-width: 425px) {
+
+    nav {
+        background-color: #ccc;
+        padding: 5px 0;
+    }
+
+    .menu__items {
+        display: none;
+    }
+
+    .burger_menu {
+        display: block;
+        position: absolute;
+        left: 15px;
+        top: 12px;
+    }
+
+    .burger_menu img {
+        width: 30px;
+    }
+
+    #introduction .box-immagine {
+        display: none;
+    }
+
+}

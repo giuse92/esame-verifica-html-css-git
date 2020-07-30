@@ -23,11 +23,16 @@ nav .logo {
     font-weight: 800;
 }
 
+.burger_menu {
+    display: none;
+}
+
 .evidenzia {
     color: #00d2b5;
 }
 
 nav .menu__items {
+    margin: 0;
     padding: 25px;
     padding-bottom: 5px;
 }
@@ -61,7 +66,7 @@ section#introduction .box-testo {
 }
 
 section#introduction .box-testo > h1 {
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .btn-link {
@@ -90,9 +95,10 @@ section#introduction .box-testo > h1 {
 }
 
 .titolo-blocco {
+    margin-top: 65px;
     text-align: center;
     font-weight: 900;
-    font-size: 28px;
+    font-size: 50px;
 }
 
 .fila {
