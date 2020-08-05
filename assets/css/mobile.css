@@ -24,4 +24,64 @@
         display: none;
     }
 
+    section#introduction {
+        padding: 0;
+        text-align: center;
+    }
+
+    section#introduction .box-testo {
+        padding: 80px 0 40px 0;
+    }
+
+    section#introduction .box-testo > h1 {
+        margin: 0;
+        font-size: 55px;
+    }
+
+    section#introduction .box-testo > p {
+        margin: 0 0 10px 0;
+        line-height: 1.7;
+        font-weight: lighter;
+    }
+
+    .btn-link {
+        margin: 0 auto;
+    }
+
+    .fila {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .titolo-blocco {
+        margin-top: 0;
+        font-size: 30px;
+    }
+
+    .box-features {
+        padding: 10px;
+    }
+
+    .aboutus-image img {
+        width: 100%;
+    }
+
+    section#dopo-features.centrata {
+        padding-bottom: 0;
+    }
+
+    section#dopo-features .box-testo, section#aboutus .box-testo {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #contact .blocco-form {
+        width: 100%;
+    }
+
+    footer .testo-footer {
+        width: 99%;
+        margin: 0 auto;
+        line-height: 1.5;
+    }
 }
